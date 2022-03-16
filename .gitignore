@@ -1,0 +1,5 @@
+/test
+/SPRenamer/obj
+/SPRenamer/bin
+/SPRenamer/*.DotSettings
+/SPRenamer/.idea

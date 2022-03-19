@@ -14,6 +14,13 @@ public class Program
             return;
         }
 
+        if (sourceDir.Trim().ToLowerInvariant().Contains("version"))
+        {
+            var version = typeof(Program).Assembly.GetName().Version;
+            Console.WriteLine($"Version {version}");
+            return;
+        }
+        
         if (string.IsNullOrWhiteSpace(sourceDir))
         {
             Console.Write("Source directory? ");

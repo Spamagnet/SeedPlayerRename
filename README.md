@@ -1,12 +1,28 @@
 # SeedPlayerRename
 
-Utility to rename audio files for use in the SeedPlayer. It will only do a single language set at a time.
+Utility to rename audio files for use in the SeedPlayer. 
+
+Notes
+
+ - It will only do a single language set at a time.
+ - It will not overwrite files in the target directory.
+
+## How to use
+
+Download the SPRenamer.exe.
+
+1. SPRenamer.exe 
+	- With no parameters - it will prompt for source and target directories
+1. SPRenamer.exe help
+	- Will display some usage info
+1. SPRenamer.exe version
+	- Will display the version of the utility
+1. SPRenamer.exe SOURCEDIR TARGETDIR
+	- Will copy/transform the contents of the SOURCEDIR into the TARGETDIR
 
 ## Overview
 
-Given source and target folders
-If not present, create individual book folders with strict 001 to 999 book prefixes in the target folder. 
-Copy all the source files into their respective book folders, renaming with strict 001 to 999 chapter prefixes.
+Given source and target folders. If not present, create individual book folders with strict `001` to `999` book prefixes in the target folder. Copy all the source files into their respective book folders, renaming with strict `001` to `999` chapter prefixes.
 
 So, in Somali, the mapping would be:
 
@@ -22,14 +38,3 @@ or, in Oromo:
 Rev 18:   Source/B27___18_Revelation__GAZBSEN2DA.mp3 >> Target/027_Revelation/018_Revelation__GAZBSEN2DA.mp3
 ```
 
-## How to use
-
-Download the SPRenamer.exe.
-
-1. SPRenamer.exe 
-	- With no parameters - it will prompt for source and target directories
-2. SPRenamer.exe help
-	- Will display some usage info
-3. SPRenamer.exe SOURCEDIR TARGETDIR
-	- Will copy/transform the contents of the SOURCEDIR into the TARGETDIR
-	

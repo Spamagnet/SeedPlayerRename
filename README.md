@@ -9,16 +9,16 @@ Notes
 
 ## How to use
 
-Download the SPRenamer.exe.
+Download the currenr `SPRenamer.exe` utility.
 
-1. SPRenamer.exe 
+1. `SPRenamer.exe`
 	- With no parameters - it will prompt for source and target directories
-1. SPRenamer.exe help
+1. `SPRenamer.exe help`
 	- Will display some usage info
-1. SPRenamer.exe version
+1. `SPRenamer.exe version`
 	- Will display the version of the utility
-1. SPRenamer.exe SOURCEDIR TARGETDIR
-	- Will copy/transform the contents of the SOURCEDIR into the TARGETDIR
+1. `SPRenamer.exe SOURCEDIR TARGETDIR`
+	- Will copy/transform the contents of the `SOURCEDIR` into the `TARGETDIR`
 
 ## Overview
 

@@ -22,6 +22,8 @@ public class AudioRenamer
 
             var targetFilePath = Path.Combine(targetDir, targetFileName);
             File.Copy(file.FullName, targetFilePath);
+            
+            Console.WriteLine($"{file.Name} -> {targetFolder} / {targetFileName}");
         }
     }
 }
